@@ -1,0 +1,182 @@
+//variables
+$dark: black;
+$gray: lightslategray;
+$light: white;
+$background: ivory;
+$pink: hotpink;
+$font-large: "Sofia", cursive;
+$font-small: "Nunito", sans-serif;
+
+*{
+    scroll-behavior: smooth;
+}
+
+@keyframes name-animation{
+    0%{
+        transform:translateX(-2000px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes webdev{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+body {
+  background-color: $background !important;
+}
+
+.navbar a:hover{
+    color:$pink !important;
+}
+
+p {
+  font-weight: bold;
+  font-family: 'Padauk', sans-serif;
+}
+
+.background-img {
+  background-image: url("./images/lum3n--RBuQ2PK_L8-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vw;
+  width: 100%;
+
+  .intro {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  h1 {
+    font-family: $font-large;
+    color: $pink;
+    font-size: 15vw;
+    animation-name: name-animation;
+    animation-duration: 2s;
+  }
+  .webdev{
+      animation-name: webdev;
+      animation-duration: 2s;
+      animation-delay: 2s;
+      animation-fill-mode: backwards;
+  }
+}
+
+hr {
+  border: dotted $gray 8px !important;
+  border-bottom: none !important;
+  background-color: transparent !important;
+  margin: 100px auto !important;
+}
+h2 {
+  color: $pink;
+}
+
+.profile {
+  max-width: 300px !important;
+  border: 8px dotted $pink !important;
+}
+
+// about me skills
+
+.programming {
+  width: 25%;
+  float: left;
+}
+.ux-design {
+  width: 25%;
+  float: right;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+//contact me
+.btn {
+  background: #ff75fa;
+  background-image: -webkit-linear-gradient(top, #ff75fa, #e262c8);
+  background-image: -moz-linear-gradient(top, #ff75fa, #e262c8);
+  background-image: -ms-linear-gradient(top, #ff75fa, #e262c8);
+  background-image: -o-linear-gradient(top, #ff75fa, #e262c8);
+  background-image: linear-gradient(to bottom, #ff75fa, #e262c8);
+  -webkit-border-radius: 30;
+  -moz-border-radius: 35;
+  border-radius: 35px;
+  font-family: Arial;
+  color: $light !important;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fa3c91;
+  background-image: -webkit-linear-gradient(top, #fa3c91, #eda5e5);
+  background-image: -moz-linear-gradient(top, #fa3c91, #eda5e5);
+  background-image: -ms-linear-gradient(top, #fa3c91, #eda5e5);
+  background-image: -o-linear-gradient(top, #fa3c91, #eda5e5);
+  background-image: linear-gradient(to bottom, #fa3c91, #eda5e5);
+  text-decoration: none;
+}
+// footer
+
+footer {
+  p,
+  small {
+    font-weight: bold;
+  }
+
+  hr {
+    width: 75%;
+  }
+  .icons {
+    i {
+      font-size: 30px;
+    }
+    .fa-linkedin {
+      color: cornflowerblue;
+    }
+    .fa-github {
+      color: $pink;
+    }
+    .fa-instagram {
+      color: $pink;
+    }
+    .fa-codepen {
+      color: $dark;
+    }
+  }
+  .copy {
+    height: 50px;
+    width: 100%;
+    background-color: $dark;
+    color: $light;
+  }
+}
+
+#myBtn {
+  position: sticky;
+  bottom: 20px;
+  margin-right: 10px;
+  place-self: end;
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: $light;
+  background: $dark;
+  border-radius: 100px;
+  white-space: nowrap;
+  z-index: 5;
+  outline: none;
+  margin: 10px;
+}
