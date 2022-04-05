@@ -7,47 +7,53 @@ $pink: hotpink;
 $font-large: "Sofia", cursive;
 $font-small: "Nunito", sans-serif;
 
-*{
-    scroll-behavior: smooth;
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@keyframes name-animation{
-    0%{
-        transform:translateX(-2000px);
-    }
-    100%{
-        transform: translateX(0);
-    }
+@keyframes name-animation {
+  0% {
+    transform: translateX(-2000px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
-@keyframes webdev{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
+@keyframes webdev {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 body {
   background-color: $background !important;
 }
+.navbar-custom {
+  background-color: $dark !important;
+}
 
-.navbar a:hover{
-    color:$pink !important;
+.navbar a:hover {
+  color: $pink !important;
 }
 
 p {
   font-weight: bold;
-  font-family: 'Padauk', sans-serif;
+  font-family: "Padauk", sans-serif;
 }
 
 .background-img {
   background-image: url("./images/lum3n--RBuQ2PK_L8-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  height: 50vw;
+  background-position: center bottom;
+  height: 45vw;
   width: 100%;
 
   .intro {
@@ -65,11 +71,11 @@ p {
     animation-name: name-animation;
     animation-duration: 2s;
   }
-  .webdev{
-      animation-name: webdev;
-      animation-duration: 2s;
-      animation-delay: 2s;
-      animation-fill-mode: backwards;
+  .webdev {
+    animation-name: webdev;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
   }
 }
 
@@ -85,7 +91,7 @@ h2 {
 
 .profile {
   max-width: 300px !important;
-  border: 8px dotted $pink !important;
+  border: 8px solid $pink !important;
 }
 
 // about me skills
@@ -144,7 +150,7 @@ footer {
       font-size: 30px;
     }
     .fa-linkedin {
-      color: cornflowerblue;
+      color: rgb(42, 109, 235);
     }
     .fa-github {
       color: $pink;
@@ -166,8 +172,8 @@ footer {
 
 #myBtn {
   position: sticky;
-  bottom: 20px;
-  margin-right: 10px;
+  bottom: 50px;
+  right: 10em;
   place-self: end;
   text-decoration: none;
   padding: 10px;

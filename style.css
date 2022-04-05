@@ -1,5 +1,8 @@
 * {
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @-webkit-keyframes name-animation {
@@ -39,6 +42,10 @@ body {
   background-color: ivory !important;
 }
 
+.navbar-custom {
+  background-color: black !important;
+}
+
 .navbar a:hover {
   color: hotpink !important;
 }
@@ -52,8 +59,8 @@ p {
   background-image: url("./images/lum3n--RBuQ2PK_L8-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  height: 50vw;
+  background-position: center bottom;
+  height: 45vw;
   width: 100%;
 }
 .background-img .intro {
@@ -97,7 +104,7 @@ h2 {
 
 .profile {
   max-width: 300px !important;
-  border: 8px dotted hotpink !important;
+  border: 8px solid hotpink !important;
 }
 
 .programming {
@@ -140,7 +147,7 @@ footer .icons i {
   font-size: 30px;
 }
 footer .icons .fa-linkedin {
-  color: cornflowerblue;
+  color: rgb(42, 109, 235);
 }
 footer .icons .fa-github {
   color: hotpink;
@@ -161,8 +168,8 @@ footer .copy {
 #myBtn {
   position: -webkit-sticky;
   position: sticky;
-  bottom: 20px;
-  margin-right: 10px;
+  bottom: 50px;
+  right: 10em;
   place-self: end;
   text-decoration: none;
   padding: 10px;
