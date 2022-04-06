@@ -2,21 +2,21 @@
 
 Built with:
 
-[Bootstrap 5](https://getbootstrap.com/)
-[Font awesome](https://fontawesome.com/)
-[Favicon generator](https://www.favicon.cc/)
-[Google Fonts](https://fonts.google.com/)
-[Balsamiq](https://balsamiq.cloud/)
+* [Bootstrap 5](https://getbootstrap.com/)
+* [Font awesome](https://fontawesome.com/)
+* [Favicon generator](https://www.favicon.cc/)
+* [Google Fonts](https://fonts.google.com/)
+* [Balsamiq](https://balsamiq.cloud/)
 
 
 ******
 
 #Contact
 
-Sofia Dinatolo - sofiadinatolo@hotmail.com
-Linkedin - https://www.linkedin.com/in/sofia-dinatolo-3a17b4217/
+* Sofia Dinatolo - sofiadinatolo@hotmail.com
+* Linkedin - https://www.linkedin.com/in/sofia-dinatolo-3a17b4217/
 
-Link to my portfolio: https://cockatiella.github.io/portfolio-website/
+* Link to my portfolio: https://cockatiella.github.io/portfolio-website/
 
 ****
 
