@@ -3,7 +3,7 @@ $dark: black;
 $gray: lightslategray;
 $light: white;
 $background: ivory;
-$pink: hotpink;
+$pink: magenta;
 $font-large: "Sofia", cursive;
 $font-small: "Nunito", sans-serif;
 
@@ -33,7 +33,8 @@ $font-small: "Nunito", sans-serif;
 }
 
 body {
-  background-color: $background !important;
+  background: rgb(236,199,250);
+  background: linear-gradient(90deg, rgba(236,199,250,1) 58%, rgba(233,148,230,1) 100%); 
 }
 .navbar-custom {
   background-color: $dark !important;
@@ -49,12 +50,14 @@ p {
 }
 
 .background-img {
-  background-image: url("./images/background.png");
+  background-image: url("./images/violetsky.gif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
-  height: 45vw;
+  height: 30vw;
   width: 100%;
+  filter: alpha(Opacity=90);
+opacity: 0.8;
 
   .intro {
     font-size: 1rem;
@@ -66,7 +69,7 @@ p {
   }
   h1 {
     font-family: $font-large;
-    color: $pink;
+    color: $light;
     font-size: 15vw;
     animation-name: name-animation;
     animation-duration: 2s;
@@ -188,4 +191,25 @@ footer {
   z-index: 5;
   outline: none;
   margin: 10px;
+}
+
+//media querys
+
+@media screen and (min-width: 800px) {
+  .codepen-space {
+    display: flex !important;
+    justify-content: space-between !important;
+
+    .child-space {
+      width: 600px !important;
+    }
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .codepen-space {
+    .child-space {
+      width: 600px !important;
+    }
+  }
 }

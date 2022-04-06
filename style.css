@@ -39,7 +39,8 @@
   }
 }
 body {
-  background-color: ivory !important;
+  background: rgb(236, 199, 250);
+  background: linear-gradient(90deg, rgb(236, 199, 250) 58%, rgb(233, 148, 230) 100%);
 }
 
 .navbar-custom {
@@ -47,7 +48,7 @@ body {
 }
 
 .navbar a:hover {
-  color: hotpink !important;
+  color: magenta !important;
 }
 
 p {
@@ -56,12 +57,14 @@ p {
 }
 
 .background-img {
-  background-image: url("./images/background.png");
+  background-image: url("./images/violetsky.gif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
-  height: 45vw;
+  height: 30vw;
   width: 100%;
+  filter: alpha(Opacity=90);
+  opacity: 0.8;
 }
 .background-img .intro {
   font-size: 1rem;
@@ -73,7 +76,7 @@ p {
 }
 .background-img h1 {
   font-family: "Sofia", cursive;
-  color: hotpink;
+  color: white;
   font-size: 15vw;
   -webkit-animation-name: name-animation;
           animation-name: name-animation;
@@ -99,12 +102,12 @@ hr {
 }
 
 h2 {
-  color: hotpink;
+  color: magenta;
 }
 
 .profile {
   max-width: 300px !important;
-  border: 8px solid hotpink !important;
+  border: 8px solid magenta !important;
 }
 
 .programming {
@@ -150,10 +153,10 @@ footer .icons .fa-linkedin {
   color: rgb(42, 109, 235);
 }
 footer .icons .fa-github {
-  color: hotpink;
+  color: magenta;
 }
 footer .icons .fa-instagram {
-  color: hotpink;
+  color: magenta;
 }
 footer .icons .fa-codepen {
   color: black;
@@ -181,4 +184,19 @@ footer .copy {
   z-index: 5;
   outline: none;
   margin: 10px;
+}
+
+@media screen and (min-width: 800px) {
+  .codepen-space {
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+  .codepen-space .child-space {
+    width: 600px !important;
+  }
+}
+@media screen and (min-width: 400px) {
+  .codepen-space .child-space {
+    width: 600px !important;
+  }
 }/*# sourceMappingURL=style.css.map */
