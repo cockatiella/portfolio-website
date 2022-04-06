@@ -2,7 +2,6 @@
 $dark: black;
 $gray: lightslategray;
 $light: white;
-$background: ivory;
 $pink: magenta;
 $font-large: "Sofia", cursive;
 $font-small: "Nunito", sans-serif;
@@ -44,8 +43,8 @@ body {
   background-color: $dark !important;
 }
 
-.navbar a:hover {
-  color: $pink !important;
+.navbar-custom a:hover {
+  color: magenta !important;
 }
 
 p {
@@ -60,8 +59,7 @@ p {
   background-position: center bottom;
   height: 30vw;
   width: 100%;
-  filter: alpha(Opacity=90);
-  opacity: 0.8;
+  
 
   .intro {
     font-size: 1rem;

@@ -47,7 +47,7 @@ body {
   background-color: black !important;
 }
 
-.navbar a:hover {
+.navbar-custom a:hover {
   color: magenta !important;
 }
 
@@ -63,8 +63,6 @@ p {
   background-position: center bottom;
   height: 30vw;
   width: 100%;
-  filter: alpha(Opacity=90);
-  opacity: 0.8;
 }
 .background-img .intro {
   font-size: 1rem;
