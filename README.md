@@ -7,7 +7,7 @@ Built with:
 * [Favicon generator](https://www.favicon.cc/)
 * [Google Fonts](https://fonts.google.com/)
 * [Balsamiq](https://balsamiq.cloud/)
-* [Header img by @galactic-castle on Tumblr] (https://www.tumblr.com/blog/view/galactic-castle)
+* Header img by @galactic-castle on Tumblr: https://www.tumblr.com/blog/view/galactic-castle
 
 
 ******
